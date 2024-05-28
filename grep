@@ -1,0 +1,371 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:35681         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:domain       0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:35681         localhost:55022         ESTABLISHED
+tcp        0      0 localhost:55032         localhost:35681         ESTABLISHED
+tcp        0      0 localhost:55022         localhost:35681         ESTABLISHED
+tcp        0      0 localhost:35681         localhost:55032         ESTABLISHED
+tcp6       0      0 [::]:mysql              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ms-sql-s           [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+udp        0      0 127.0.0.53:domain       0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp6       0      0 ip6-localhost:323       [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     736487   /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     728926   /run/WSL/8_interop
+unix  2      [ ACC ]     STREAM     LISTENING     725976   /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     731385   /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     725921   /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     21506    /run/WSL/2_interop
+unix  2      [ ACC ]     STREAM     LISTENING     18452    /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     731443   /run/WSL/18_interop
+unix  2      [ ACC ]     STREAM     LISTENING     725991   /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     728924   /mnt/wslg/weston-notify.sock
+unix  2      [ ACC ]     STREAM     LISTENING     725943   /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     725928   /mnt/wslg/weston-notify.sock
+unix  2      [ ACC ]     STREAM     LISTENING     20509    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     134      /mnt/wslg/weston-notify.sock
+unix  2      [ ACC ]     STREAM     LISTENING     737287   /run/WSL/27_interop
+unix  2      [ ACC ]     STREAM     LISTENING     2955057  /mnt/wslg/PulseAudioRDPSource
+unix  2      [ ACC ]     STREAM     LISTENING     2959052  /mnt/wslg/PulseAudioRDPSink
+unix  2      [ ACC ]     STREAM     LISTENING     733778   /mnt/wslg/runtime-dir/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     736468   /mnt/wslg/runtime-dir/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     17631    /mnt/wslg/runtime-dir/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     734416   /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     736469   /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     726706   /run/host-services/http-proxy-restricted.sock
+unix  2      [ ACC ]     STREAM     LISTENING     737295   /run/host-services/backend.native.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17632    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     728935   /run/host-services/hubproxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     20793    @/tmp/dbus-nNJYtyrKIA
+unix  2      [ ACC ]     STREAM     LISTENING     733809   /run/host-services/http-proxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     734437   /run/host-services/network-proxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     737296   /run/host-services/backend.sock
+unix  2      [ ACC ]     STREAM     LISTENING     726681   /mnt/wslg/runtime-dir/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     726566   /mnt/wslg/runtime-dir/pulse/native
+unix  2      [ ]         DGRAM                    17298    /var/run/chrony/chronyd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     733812   /run/host-services/ntp.udp.sock
+unix  2      [ ACC ]     STREAM     LISTENING     733810   /run/host-services/dns.internal.grpc.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17328    /mnt/wslg/runtime-dir/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     734435   /run/host-services/docker.proxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     728932   /run/host-services/extension-manager.sock
+unix  2      [ ACC ]     STREAM     LISTENING     733811   /run/host-services/vpnkit-data.sock
+unix  2      [ ACC ]     STREAM     LISTENING     734436   /run/host-services/gvisor-ethernet-vpnkit-protocol.sock
+unix  2      [ ACC ]     STREAM     LISTENING     728933   /run/host-services/filesystem.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3605636  /run/user/1000/vscode-ipc-d5f5c2b6-556b-4831-ad43-fe1b504d4092.sock
+unix  2      [ ACC ]     STREAM     LISTENING     728934   /run/host-services/dns.system.grpc.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3605807  /run/user/1000/vscode-git-a0c2442568.sock
+unix  2      [ ACC ]     STREAM     LISTENING     2894452  /run/WSL/182776_interop
+unix  2      [ ACC ]     STREAM     LISTENING     728946   /run/guest-services/wsl2-bootstrap-expose-ports.sock
+unix  2      [ ACC ]     STREAM     LISTENING     731468   /run/guest-services/wsl-cross-distro.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21663    /run/systemd/resolve/io.systemd.Resolve
+unix  2      [ ACC ]     STREAM     LISTENING     736510   /mnt/wslg/PulseServer
+unix  2      [ ACC ]     STREAM     LISTENING     733821   /mnt/wslg/PulseServer
+unix  2      [ ]         DGRAM                    21785    /run/user/1000/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     21788    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     726655   /tmp/dbus-ubZ1AHeqnk
+unix  2      [ ACC ]     STREAM     LISTENING     733772   /tmp/dbus-FBf7je0MJ5
+unix  2      [ ACC ]     STREAM     LISTENING     21516    /tmp/dbus-ZnMHilIFcp
+unix  2      [ ACC ]     STREAM     LISTENING     21794    /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     21796    /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     742423   /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21798    /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     21800    /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     21802    /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     21804    /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     21806    /run/user/1000/podman/podman.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21808    /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     2957922  /mnt/wslg/PulseAudioRDPSource
+unix  2      [ ACC ]     STREAM     LISTENING     2960145  /mnt/wslg/PulseAudioRDPSource
+unix  2      [ ACC ]     STREAM     LISTENING     2955062  /mnt/wslg/PulseAudioRDPSink
+unix  2      [ ACC ]     STREAM     LISTENING     2961619  /mnt/wslg/PulseAudioRDPSink
+unix  3      [ ]         DGRAM      CONNECTED     20539    /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     20542    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     20544    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     3063843  /tmp/tmux-1000/default
+unix  2      [ ACC ]     STREAM     LISTENING     20545    /run/systemd/io.system.ManagedOOM
+unix  2      [ ]         DGRAM                    20548    /run/systemd/journal/syslog
+unix  16     [ ]         DGRAM      CONNECTED     20556    /run/systemd/journal/dev-log
+unix  8      [ ]         DGRAM      CONNECTED     20558    /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     20560    /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     20562    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     743457   /home/william/.docker/run/docker-cli-api.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3787961  @/tmp/dbus-4GAs1w2TiA
+unix  2      [ ACC ]     STREAM     LISTENING     17342    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     20786    /mnt/wslg/PulseServer
+unix  2      [ ACC ]     STREAM     LISTENING     21738    /run/WSL/562_interop
+unix  2      [ ACC ]     STREAM     LISTENING     3606534  /run/WSL/286527_interop
+unix  2      [ ACC ]     STREAM     LISTENING     731070   /run/WSL/49668_interop
+unix  2      [ ACC ]     STREAM     LISTENING     740812   /var/run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3603857  /run/WSL/286550_interop
+unix  2      [ ACC ]     STREAM     LISTENING     742422   /var/run/docker-cli.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3602670  /run/WSL/286560_interop
+unix  2      [ ACC ]     STREAM     LISTENING     742477   /run/WSL/49799_interop
+unix  2      [ ACC ]     STREAM     LISTENING     19813    /run/subiquity/socket
+unix  2      [ ACC ]     STREAM     LISTENING     459670   @/tmp/dbus-QrvkMVdS7h
+unix  2      [ ACC ]     STREAM     LISTENING     135920   @/tmp/dbus-HFptioGD3U
+unix  2      [ ]         DGRAM                    268681   @0002d
+unix  2      [ ACC ]     STREAM     LISTENING     3842825  @/tmp/dbus-HASzLdNZx6
+unix  2      [ ]         DGRAM                    731287   /run/user/0/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     731290   /run/user/0/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     731296   /run/user/0/gnupg/S.dirmngr
+unix  2      [ ]         DGRAM                    3803154  @00046
+unix  2      [ ACC ]     STREAM     LISTENING     731298   /run/user/0/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     731300   /run/user/0/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     731302   /run/user/0/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     17763    /run/apport.socket
+unix  2      [ ACC ]     STREAM     LISTENING     731304   /run/user/0/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     731306   /run/user/0/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     17765    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     17767    /run/podman/podman.sock
+unix  2      [ ACC ]     STREAM     LISTENING     731308   /run/user/0/podman/podman.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17769    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     731310   /run/user/0/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17771    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17773    /run/uuidd/request
+unix  3      [ ]         STREAM     CONNECTED     3608271  
+unix  3      [ ]         STREAM     CONNECTED     741158   
+unix  3      [ ]         STREAM     CONNECTED     744611   
+unix  2      [ ]         DGRAM      CONNECTED     731280   
+unix  3      [ ]         STREAM     CONNECTED     738284   
+unix  3      [ ]         STREAM     CONNECTED     23728    
+unix  3      [ ]         STREAM     CONNECTED     3605808  
+unix  3      [ ]         STREAM     CONNECTED     20513    
+unix  2      [ ]         DGRAM      CONNECTED     3844657  
+unix  3      [ ]         STREAM     CONNECTED     742799   
+unix  3      [ ]         STREAM     CONNECTED     3604569  
+unix  3      [ ]         STREAM     CONNECTED     21627    
+unix  3      [ ]         STREAM     CONNECTED     3691389  
+unix  3      [ ]         STREAM     CONNECTED     17906    
+unix  3      [ ]         STREAM     CONNECTED     736511   
+unix  2      [ ]         DGRAM      CONNECTED     23626    
+unix  3      [ ]         STREAM     CONNECTED     18611    
+unix  3      [ ]         STREAM     CONNECTED     743646   
+unix  2      [ ]         STREAM     CONNECTED     739859   /run/host-services/backend.sock
+unix  3      [ ]         STREAM     CONNECTED     3604560  
+unix  2      [ ]         STREAM     CONNECTED     2943998  
+unix  3      [ ]         STREAM     CONNECTED     19737    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     20541    
+unix  3      [ ]         STREAM     CONNECTED     19793    
+unix  3      [ ]         STREAM     CONNECTED     736501   
+unix  3      [ ]         STREAM     CONNECTED     262459   /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20507    
+unix  3      [ ]         STREAM     CONNECTED     738787   
+unix  3      [ ]         STREAM     CONNECTED     21636    
+unix  3      [ ]         STREAM     CONNECTED     731259   
+unix  2      [ ]         STREAM     CONNECTED     738645   
+unix  3      [ ]         STREAM     CONNECTED     728947   
+unix  3      [ ]         STREAM     CONNECTED     736474   
+unix  3      [ ]         STREAM     CONNECTED     731292   
+unix  2      [ ]         DGRAM      CONNECTED     21774    
+unix  3      [ ]         STREAM     CONNECTED     19665    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21622    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     3604570  
+unix  3      [ ]         STREAM     CONNECTED     21567    
+unix  3      [ ]         STREAM     CONNECTED     726684   
+unix  3      [ ]         STREAM     CONNECTED     20787    
+unix  3      [ ]         STREAM     CONNECTED     17332    
+unix  3      [ ]         STREAM     CONNECTED     345      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     143875   
+unix  3      [ ]         STREAM     CONNECTED     1875014  
+unix  3      [ ]         STREAM     CONNECTED     733862   /run/guest-services/procd.sock
+unix  3      [ ]         STREAM     CONNECTED     20706    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     745533   
+unix  3      [ ]         STREAM     CONNECTED     742805   
+unix  3      [ ]         STREAM     CONNECTED     731378   
+unix  2      [ ]         DGRAM                    58469    
+unix  3      [ ]         STREAM     CONNECTED     3605812  
+unix  3      [ ]         STREAM     CONNECTED     726766   
+unix  3      [ ]         STREAM     CONNECTED     3691386  
+unix  3      [ ]         STREAM     CONNECTED     726982   /run/guest-services/docker.proxy.sock
+unix  2      [ ]         STREAM     CONNECTED     2955046  
+unix  3      [ ]         STREAM     CONNECTED     23701    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     734460   /tmp/dbus-ubZ1AHeqnk
+unix  3      [ ]         STREAM     CONNECTED     22657    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     263487   
+unix  3      [ ]         STREAM     CONNECTED     2032563  
+unix  2      [ ]         STREAM     CONNECTED     3779462  
+unix  3      [ ]         STREAM     CONNECTED     743642   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     743602   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     253804   
+unix  2      [ ]         DGRAM      CONNECTED     20642    
+unix  3      [ ]         STREAM     CONNECTED     736620   
+unix  3      [ ]         STREAM     CONNECTED     3691388  
+unix  3      [ ]         STREAM     CONNECTED     17905    
+unix  3      [ ]         STREAM     CONNECTED     733825   /run/host-services/backend.sock
+unix  3      [ ]         STREAM     CONNECTED     18612    
+unix  3      [ ]         STREAM     CONNECTED     20535    
+unix  3      [ ]         STREAM     CONNECTED     734421   
+unix  3      [ ]         STREAM     CONNECTED     2142631  
+unix  3      [ ]         STREAM     CONNECTED     743599   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     19617    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     21787    
+unix  3      [ ]         STREAM     CONNECTED     736473   
+unix  3      [ ]         STREAM     CONNECTED     2029298  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     3608269  
+unix  2      [ ]         DGRAM      CONNECTED     733713   
+unix  3      [ ]         STREAM     CONNECTED     3691390  
+unix  3      [ ]         STREAM     CONNECTED     284      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM      CONNECTED     23678    
+unix  3      [ ]         STREAM     CONNECTED     726569   
+unix  2      [ ]         STREAM     CONNECTED     143790   
+unix  3      [ ]         STREAM     CONNECTED     20508    
+unix  3      [ ]         STREAM     CONNECTED     3057501  
+unix  3      [ ]         STREAM     CONNECTED     725947   
+unix  2      [ ]         DGRAM      CONNECTED     18486    
+unix  3      [ ]         STREAM     CONNECTED     3604565  
+unix  3      [ ]         STREAM     CONNECTED     794823   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     249      /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1873603  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     734412   
+unix  2      [ ]         DGRAM      CONNECTED     21766    
+unix  3      [ ]         STREAM     CONNECTED     19612    
+unix  3      [ ]         STREAM     CONNECTED     3604571  
+unix  2      [ ]         STREAM     CONNECTED     352      
+unix  3      [ ]         STREAM     CONNECTED     262469   
+unix  3      [ ]         STREAM     CONNECTED     1868536  
+unix  3      [ ]         STREAM     CONNECTED     728424   /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     3822127  
+unix  3      [ ]         STREAM     CONNECTED     3604568  
+unix  3      [ ]         STREAM     CONNECTED     18556    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     463363   
+unix  3      [ ]         STREAM     CONNECTED     3605815  
+unix  3      [ ]         STREAM     CONNECTED     737313   /run/guest-services/wsl2-bootstrap-expose-ports.sock
+unix  3      [ ]         STREAM     CONNECTED     143874   
+unix  3      [ ]         STREAM     CONNECTED     3604572  
+unix  3      [ ]         STREAM     CONNECTED     17335    
+unix  3      [ ]         STREAM     CONNECTED     726979   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     741814   
+unix  3      [ ]         STREAM     CONNECTED     740300   /run/guest-services/docker.proxy.sock
+unix  2      [ ]         DGRAM      CONNECTED     463362   
+unix  3      [ ]         STREAM     CONNECTED     3608270  
+unix  3      [ ]         STREAM     CONNECTED     18580    
+unix  3      [ ]         STREAM     CONNECTED     21790    
+unix  3      [ ]         STREAM     CONNECTED     742872   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     742828   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     3605811  
+unix  3      [ ]         STREAM     CONNECTED     731464   /tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     23825    /tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     3522934  /run/host-services/backend.sock
+unix  3      [ ]         STREAM     CONNECTED     734411   
+unix  3      [ ]         STREAM     CONNECTED     3843412  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     3783646  
+unix  3      [ ]         STREAM     CONNECTED     725994   
+unix  3      [ ]         STREAM     CONNECTED     19653    
+unix  3      [ ]         STREAM     CONNECTED     736480   
+unix  3      [ ]         STREAM     CONNECTED     734441   /tmp/dbus-FBf7je0MJ5
+unix  3      [ ]         STREAM     CONNECTED     17875    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     3846236  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     797865   
+unix  3      [ ]         STREAM     CONNECTED     21633    
+unix  3      [ ]         STREAM     CONNECTED     742838   
+unix  3      [ ]         STREAM     CONNECTED     734420   
+unix  3      [ ]         STREAM     CONNECTED     3691391  
+unix  3      [ ]         STREAM     CONNECTED     2029299  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     736471   
+unix  2      [ ]         DGRAM      CONNECTED     23630    
+unix  3      [ ]         STREAM     CONNECTED     740327   
+unix  3      [ ]         STREAM     CONNECTED     3844659  
+unix  3      [ ]         STREAM     CONNECTED     3604566  
+unix  3      [ ]         STREAM     CONNECTED     740816   /run/guest-services/docker.proxy.sock
+unix  2      [ ]         STREAM     CONNECTED     2943994  
+unix  3      [ ]         STREAM     CONNECTED     731379   
+unix  3      [ ]         STREAM     CONNECTED     21635    /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM      CONNECTED     731288   
+unix  3      [ ]         DGRAM      CONNECTED     21786    
+unix  3      [ ]         STREAM     CONNECTED     23704    
+unix  3      [ ]         STREAM     CONNECTED     726978   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     3604567  
+unix  3      [ ]         STREAM     CONNECTED     3605814  
+unix  3      [ ]         STREAM     CONNECTED     3783647  
+unix  3      [ ]         STREAM     CONNECTED     3847227  
+unix  3      [ ]         STREAM     CONNECTED     736500   
+unix  3      [ ]         STREAM     CONNECTED     742875   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     731621   
+unix  3      [ ]         STREAM     CONNECTED     23710    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     3608268  
+unix  3      [ ]         STREAM     CONNECTED     224      
+unix  2      [ ]         DGRAM      CONNECTED     21747    
+unix  2      [ ]         DGRAM      CONNECTED     22692    
+unix  3      [ ]         STREAM     CONNECTED     21578    
+unix  3      [ ]         STREAM     CONNECTED     734663   
+unix  3      [ ]         STREAM     CONNECTED     3605810  
+unix  3      [ ]         STREAM     CONNECTED     733838   /tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     463364   
+unix  3      [ ]         STREAM     CONNECTED     17334    
+unix  3      [ ]         STREAM     CONNECTED     730770   
+unix  3      [ ]         STREAM     CONNECTED     742899   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         DGRAM      CONNECTED     20644    
+unix  3      [ ]         STREAM     CONNECTED     3608274  
+unix  3      [ ]         STREAM     CONNECTED     3608272  
+unix  3      [ ]         STREAM     CONNECTED     736502   
+unix  3      [ ]         STREAM     CONNECTED     160      /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19485    
+unix  2      [ ]         DGRAM      CONNECTED     21653    
+unix  2      [ ]         DGRAM      CONNECTED     731270   
+unix  3      [ ]         STREAM     CONNECTED     3691387  
+unix  3      [ ]         STREAM     CONNECTED     741819   /run/guest-services/docker.proxy.sock
+unix  2      [ ]         DGRAM      CONNECTED     17344    
+unix  3      [ ]         STREAM     CONNECTED     3844658  
+unix  3      [ ]         STREAM     CONNECTED     730610   /run/guest-services/memlogdq.sock
+unix  3      [ ]         STREAM     CONNECTED     3691392  
+unix  3      [ ]         STREAM     CONNECTED     736481   
+unix  3      [ ]         STREAM     CONNECTED     736472   
+unix  3      [ ]         STREAM     CONNECTED     1862465  /run/guest-services/docker.proxy.sock
+unix  2      [ ]         DGRAM      CONNECTED     143873   
+unix  3      [ ]         STREAM     CONNECTED     745548   /run/guest-services/wsl2-bootstrap-expose-ports.sock
+unix  3      [ ]         STREAM     CONNECTED     17785    
+unix  3      [ ]         DGRAM      CONNECTED     731289   
+unix  3      [ ]         STREAM     CONNECTED     2030395  
+unix  2      [ ]         DGRAM      CONNECTED     3783645  
+unix  3      [ ]         STREAM     CONNECTED     743634   /run/guest-services/volume-contents.sock
+unix  2      [ ]         DGRAM      CONNECTED     19797    
+unix  3      [ ]         STREAM     CONNECTED     20512    
+unix  3      [ ]         STREAM     CONNECTED     3608273  
+unix  3      [ ]         STREAM     CONNECTED     737322   
+unix  3      [ ]         STREAM     CONNECTED     725946   
+unix  3      [ ]         STREAM     CONNECTED     730946   /run/guest-services/wsl2-expose-ports.sock
+unix  2      [ ]         DGRAM      CONNECTED     263490   
+unix  3      [ ]         STREAM     CONNECTED     21756    
+unix  3      [ ]         STREAM     CONNECTED     21634    
+unix  3      [ ]         STREAM     CONNECTED     3521013  
+unix  3      [ ]         STREAM     CONNECTED     742793   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     23703    
+unix  2      [ ]         STREAM     CONNECTED     3800479  
+unix  3      [ ]         STREAM     CONNECTED     306      
+unix  3      [ ]         DGRAM      CONNECTED     20540    
+unix  2      [ ]         STREAM     CONNECTED     728942   
+unix  3      [ ]         STREAM     CONNECTED     730622   
+unix  3      [ ]         STREAM     CONNECTED     19664    
+unix  3      [ ]         STREAM     CONNECTED     745558   
+unix  3      [ ]         STREAM     CONNECTED     726983   /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     736403   /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     3604559  
+unix  3      [ ]         STREAM     CONNECTED     2137873  /run/guest-services/docker.proxy.sock
+unix  3      [ ]         STREAM     CONNECTED     21660    
+unix  3      [ ]         STREAM     CONNECTED     725995   
+unix  3      [ ]         STREAM     CONNECTED     3605813  
+unix  2      [ ]         STREAM     CONNECTED     271471   
+unix  3      [ ]         STREAM     CONNECTED     17333    
+unix  3      [ ]         STREAM     CONNECTED     19794    
+unix  2      [ ]         DGRAM      CONNECTED     275      
+unix  3      [ ]         STREAM     CONNECTED     733822   
+unix  3      [ ]         STREAM     CONNECTED     19595    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     3057500  
+unix  3      [ ]         STREAM     CONNECTED     3691385  
+unix  3      [ ]         STREAM     CONNECTED     19655    
+unix  3      [ ]         STREAM     CONNECTED     17709    
+unix  3      [ ]         STREAM     CONNECTED     259729   /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19594    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     745782   
+unix  3      [ ]         STREAM     CONNECTED     3605809  
+unix  3      [ ]         STREAM     CONNECTED     353      /tmp/dbus-ZnMHilIFcp
+unix  3      [ ]         STREAM     CONNECTED     3608267  
+unix  3      [ ]         STREAM     CONNECTED     736499   
+unix  3      [ ]         STREAM     CONNECTED     19484    
+unix  3      [ ]         DGRAM      CONNECTED     20645    
+unix  3      [ ]         STREAM     CONNECTED     259730   /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     739858   
