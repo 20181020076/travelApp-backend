@@ -13,6 +13,9 @@ class History extends Model
     protected $weatherIcon = "weather_icon";
     protected $currencyCop = "currency_cop";
     protected $convertedCurrency = "converted_currency";
+    protected $countryId = "country_id";
+    protected $cityId = "city_id";
+    protected $fillable = ['weather', 'weather_icon', 'currency_cop', 'converted_currency', 'country_id', 'city_id'];
 
     public function countries()
     {
