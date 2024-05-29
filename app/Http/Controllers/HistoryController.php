@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\History;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
 class HistoryController extends Controller
@@ -21,5 +22,22 @@ class HistoryController extends Controller
         }
 
         return $histories;
+    }
+
+    /**
+     * Create a new history.
+     */
+    public function create(Request $request)
+    {
+        $history = History::create([
+            "weather" => $request->weather,
+            "weather_icon" => $request->weatherIcon,
+            "currency_cop" => $request->currencyCop,
+            "converted_currency" => $request->convertedCurrency,
+            "country_id" => $request->countryId,
+            "city_id" => $request->cityId
+        ]);
+
+        return $history;
     }
 }

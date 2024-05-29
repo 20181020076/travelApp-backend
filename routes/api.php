@@ -24,3 +24,4 @@ Route::get("/countries", [CountriesController::class, "getList"]);
 Route::get("/countries/{id}", [CountriesController::class, "find"]);
 
 Route::get("/histories", [HistoryController::class, "getAll"]);
+Route::post("/histories", [HistoryController::class, "create"]);
