@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\History;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
 class HistoryController extends Controller
@@ -13,13 +12,17 @@ class HistoryController extends Controller
      */
     public function getAll($skipCount = 0, $takeCount = 4)
     {
-        $histories = History::all()
-            ->skip($skipCount)
-            ->take($takeCount);
-        foreach ($histories as $history) {
-            $history->countries;
-            $history->cities;
+        if (request()->has('skipCount')) {
+            $skipCount = request()->query("skipCount");
         }
+        if (request()->has('takeCount')) {
+            $takeCount = request()->query("takeCount");
+        }
+        $histories = History::query()
+            ->skip($skipCount)
+            ->take($takeCount)
+            ->orderBy('updated_at', 'desc')
+            ->get();
 
         return $histories;
     }
